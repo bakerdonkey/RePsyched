@@ -49,6 +49,7 @@ class MainViewController: UIViewController {
         if segue.identifier == "leaderboardSegue" {
             let lb = segue.destination as! LeaderboardViewController
             lb.me = self.profile
+            //lb.tableView.reloadData()
         }
         if segue.identifier == "settingsSegue" {
             let s = segue.destination as! SettingsViewController

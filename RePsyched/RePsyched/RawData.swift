@@ -55,7 +55,7 @@ let paperSmall =
             Item(type: .paper, size: .small, name: "Plate", weight: 0.01, points: 1),
             Item(type: .paper, size: .small, name: "Cup", weight: 0.2, points: 2),
             Item(type: .paper, size: .small, name: "Sheet", weight: 0.01, points: 1),
-            Item(type: .paper, size: .small, name: "Envilope", weight: 0.05, points: 1),
+            Item(type: .paper, size: .small, name: "Envelope", weight: 0.05, points: 1),
         ]
 
 let metalLarge =

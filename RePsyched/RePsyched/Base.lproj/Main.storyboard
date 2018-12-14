@@ -647,8 +647,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="paperTapped:" destination="r1h-e7-TBv" eventType="touchUpInside" id="rcZ-hV-Lbe"/>
-                                    <segue destination="qJq-vd-gMY" kind="show" identifier="size" id="jw9-88-VaT"/>
+                                    <segue destination="qJq-vd-gMY" kind="show" identifier="paper" id="p2g-pG-UVd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otZ-hF-Ait">
@@ -660,8 +659,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="plasticTapped:" destination="r1h-e7-TBv" eventType="touchUpInside" id="WuX-4j-jZ4"/>
-                                    <segue destination="qJq-vd-gMY" kind="show" identifier="size" id="72L-gs-Yte"/>
+                                    <segue destination="qJq-vd-gMY" kind="show" identifier="plastic" id="9a1-KZ-uIO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgO-tv-IxP">
@@ -673,8 +671,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="metalTapped:" destination="r1h-e7-TBv" eventType="touchUpInside" id="4Uf-Lx-72S"/>
-                                    <segue destination="qJq-vd-gMY" kind="show" identifier="size" id="7g3-Hh-O8O"/>
+                                    <segue destination="qJq-vd-gMY" kind="show" identifier="metal" id="h2A-Dc-VSY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -723,8 +720,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="mediumTapped:" destination="qJq-vd-gMY" eventType="touchUpInside" id="dWH-kx-bY6"/>
-                                    <segue destination="zQa-Vi-ylW" kind="show" id="dsC-gN-M6O"/>
+                                    <segue destination="zQa-Vi-ylW" kind="show" identifier="medium" id="SSt-9O-GUw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z93-hi-diy">
@@ -736,8 +732,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="largeTapped:" destination="qJq-vd-gMY" eventType="touchUpInside" id="2ON-MK-GEQ"/>
-                                    <segue destination="zQa-Vi-ylW" kind="show" id="xLn-bs-VYu"/>
+                                    <segue destination="zQa-Vi-ylW" kind="show" identifier="large" id="CQD-Ll-Plw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnN-rl-0p3">
@@ -749,8 +744,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="smallTapped:" destination="qJq-vd-gMY" eventType="touchUpInside" id="TzR-ZB-o55"/>
-                                    <segue destination="zQa-Vi-ylW" kind="show" id="I4Y-Wr-jNB"/>
+                                    <segue destination="zQa-Vi-ylW" kind="show" identifier="small" id="kYd-c4-UbA"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -785,7 +779,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="button1Tapped:" destination="zQa-Vi-ylW" eventType="touchUpInside" id="oru-rZ-uag"/>
+                                    <action selector="button1Tapped:" destination="zQa-Vi-ylW" eventType="touchUpInside" id="e5z-3f-du8"/>
                                     <segue destination="7fM-nZ-094" kind="unwind" unwindAction="unwindToMainVCWithSender:" id="UBl-UV-FBS"/>
                                 </connections>
                             </button>
@@ -798,7 +792,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="button2Tapped:" destination="zQa-Vi-ylW" eventType="touchUpInside" id="hx0-lD-s4v"/>
+                                    <action selector="button2Tapped:" destination="zQa-Vi-ylW" eventType="touchUpInside" id="yTz-c2-DCj"/>
                                     <segue destination="7fM-nZ-094" kind="unwind" unwindAction="unwindToMainVCWithSender:" id="yhu-rR-Jg8"/>
                                 </connections>
                             </button>
@@ -811,7 +805,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="button4Tapped:" destination="zQa-Vi-ylW" eventType="touchUpInside" id="bgL-XT-Fsu"/>
+                                    <action selector="button4Tapped:" destination="zQa-Vi-ylW" eventType="touchUpInside" id="7RC-9Q-X6x"/>
                                     <segue destination="7fM-nZ-094" kind="unwind" unwindAction="unwindToMainVCWithSender:" id="tIm-NA-DjJ"/>
                                 </connections>
                             </button>
@@ -824,7 +818,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="button3Tapped:" destination="zQa-Vi-ylW" eventType="touchUpInside" id="xX3-qE-u94"/>
+                                    <action selector="button3Tapped:" destination="zQa-Vi-ylW" eventType="touchUpInside" id="JP5-fe-Xmj"/>
                                     <segue destination="7fM-nZ-094" kind="unwind" unwindAction="unwindToMainVCWithSender:" id="oGs-xW-r8Z"/>
                                 </connections>
                             </button>
@@ -852,7 +846,7 @@
         <image name="user" width="401" height="401"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xLn-bs-VYu"/>
-        <segue reference="72L-gs-Yte"/>
+        <segue reference="CQD-Ll-Plw"/>
+        <segue reference="h2A-Dc-VSY"/>
     </inferredMetricsTieBreakers>
 </document>

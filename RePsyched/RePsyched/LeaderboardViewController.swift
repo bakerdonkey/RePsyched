@@ -42,8 +42,7 @@ class LeaderboardViewController: UIViewController, UITableViewDelegate, UITableV
         self.globalTable.sort(by: {(lhs: Profile, rhs: Profile) -> Bool in
             return lhs.points > rhs.points
         })
-        // This is bad practice, but whatever
-        tableView.reloadData()
+        
     }
     
     override func viewDidLoad() {

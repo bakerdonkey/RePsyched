@@ -13,20 +13,6 @@ import UIKit
 class MaterialViewController: UIViewController {
     
     let dataArray = data
-    var outIndex : Int = 0
-    @IBAction func paperTapped(_ sender: Any) {
-        self.outIndex = 1
-        //self.outData = self.dataArray[1]
-    }
-    @IBAction func plasticTapped(_ sender: Any) {
-        self.outIndex = 0
-        //self.outData = self.dataArray[0]
-    }
-    @IBAction func metalTapped(_ sender: Any) {
-        self.outIndex = 2
-        //self.outData = self.dataArray[2]
-
-    }
     
     @IBOutlet weak var button0: UIButton!
     @IBOutlet weak var button1: UIButton!
@@ -37,13 +23,6 @@ class MaterialViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
     
     // MARK: - Navigation
 
@@ -51,9 +30,17 @@ class MaterialViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        if segue.identifier == "size" {
+        if segue.identifier == "plastic" {
             let destination = segue.destination as! SizeViewController
-            destination.dataArray = dataArray[outIndex]
+            destination.dataArray = dataArray[0]
+        }
+        if segue.identifier == "paper" {
+            let destination = segue.destination as! SizeViewController
+            destination.dataArray = dataArray[1]
+        }
+        if segue.identifier == "metal" {
+            let destination = segue.destination as! SizeViewController
+            destination.dataArray = dataArray[2]
         }
     }
     
