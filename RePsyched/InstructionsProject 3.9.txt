@@ -1,0 +1,41 @@
+Project 3: One App at a Time
+Phase 3.9
+“RePsyched”
+
+Kyle McDermott, Sam Kochanski, Robert Jewell, Evan Bressler
+
+
+Instructions 
+Running the app
+* Unzip RePsyched.zip
+* Open RePsyched.xcodeproj in XCode (Version 9.4+)
+* Open “iPhone 8” Simulator
+* Build and run OR drag Products -> EliteFleet.app onto Simulator from the Navigator
+
+
+Username: mrpeanut
+Password: password
+
+
+Note: For demo purposes of the app, use the account information provided above to login
+Task 1: Updating username
+1. Login to your account
+2. Tap on ‘Settings’
+3. Type in your new username
+4. Type in your current password
+5. Hit Confirm
+
+
+Task 2: Viewing yourself on the leaderboard
+1. Login to your account
+2. Tap on ‘Leaderboard’
+3. Scroll until you see your highlighted profile
+4. Tap onto your profile to see your quick stats
+
+
+Task 3: Entering data
+1. Login to your account
+2. Tap ‘New Item’
+3. Tap on the material of the object you’re recycling
+4. Tap on the size of of the object you’re recycling
+5. Tap on the related item you wish to recycle
